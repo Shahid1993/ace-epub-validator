@@ -1,0 +1,42 @@
+{
+  "name": "collaborate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@daisy/ace": "^1.0.2",
+    "SimpleQueue": "0.0.1",
+    "angular-aria": "^1.7.7",
+    "angular-messages": "^1.7.7",
+    "body-parser": "^1.18.2",
+    "clone": "^2.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^1.0.0",
+    "express": "^4.16.4",
+    "express-limiter": "^1.6.1",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "helmet": "^3.15.1",
+    "hpp": "^0.2.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "method-override": "^2.3.10",
+    "node-cmd": "^3.0.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.2",
+    "redis": "^2.8.0",
+    "request": "^2.83.0",
+    "stream": "0.0.2",
+    "urlencode": "^1.1.0",
+    "winston": "^2.4.4",
+    "uuid":"*",
+    "fs-extra":"4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jerry",
+  "license": "ISC"
+}
