@@ -83,6 +83,7 @@ app.get('/ace/:taskId/:file', function(httpReq, httpRes) {
         return;
     }
 });
+
 app.use(function (req, res, next) {
     res.redirect('/#/error')
 });
